@@ -1,0 +1,93 @@
+{
+  "id": "market-research",
+  "title": "Market & competitor brief",
+  "careerPaths": [
+    "Consulting",
+    "Marketing",
+    "Finance"
+  ],
+  "summary": "Build an evidence-backed research brief with a source verification loop.",
+  "difficulty": "Starter",
+  "minutesToFirstValue": 10,
+  "components": [
+    {
+      "id": "1",
+      "title": "Scope the question",
+      "purpose": "Define the market and decision.",
+      "checklist": [
+        "Set boundaries",
+        "List hypotheses",
+        "Define source quality"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "market-research-1"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Gather evidence",
+      "purpose": "Collect sources and competing explanations.",
+      "checklist": [
+        "Record source URLs",
+        "Check dates and primary sources",
+        "Distinguish fact from inference"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "market-research-2"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Synthesize the brief",
+      "purpose": "Explain the decision and uncertainty.",
+      "checklist": [
+        "Compare competitors",
+        "Challenge unsupported claims",
+        "Verify every citation"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "market-research-3"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    }
+  ],
+  "interviewStoryTemplate": "Situation \u2192 what I delegated \u2192 what I kept manual \u2192 prompting decisions \u2192 observed result \u2192 what I would change."
+}

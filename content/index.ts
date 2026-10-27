@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { scenarioSchema,toolSchema,departmentSchema,policySchema } from '@/lib/models';
+import toolData from './tools.json';
+import departmentData from './departments/index.json';
+import policyData from './policies/index.json';
+export {default as prompts} from './prompts.json';
+export const scenarios=fs.readdirSync(path.join(process.cwd(),'content/scenarios')).filter(f=>f.endsWith('.json')).map(f=>scenarioSchema.parse(JSON.parse(fs.readFileSync(path.join(process.cwd(),'content/scenarios',f),'utf8')))).sort((a,b)=>a.id==='prd-maker'?-1:b.id==='prd-maker'?1:a.title.localeCompare(b.title));
+export const tools=toolData.map(t=>toolSchema.parse(t));
+export const departments=departmentData.map(t=>departmentSchema.parse(t));
+export const policies=policyData.map(t=>policySchema.parse(t));

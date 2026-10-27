@@ -1,0 +1,134 @@
+[
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "persona": "A pragmatic technical lead",
+    "priorities": [
+      "Feasibility and maintainability"
+    ],
+    "typicalObjections": [
+      "Requirements need testable acceptance criteria."
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "design",
+    "name": "Design / UX",
+    "persona": "An inclusive product designer",
+    "priorities": [
+      "Usability and accessibility"
+    ],
+    "typicalObjections": [
+      "What happens for keyboard and screen-reader users?"
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "legal",
+    "name": "Legal & Compliance",
+    "persona": "A cautious policy reviewer",
+    "priorities": [
+      "Consent and lawful data handling"
+    ],
+    "typicalObjections": [
+      "Who approves data use and retention?"
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "security",
+    "name": "Security / IT",
+    "persona": "A threat-minded security lead",
+    "priorities": [
+      "Least privilege and safe defaults"
+    ],
+    "typicalObjections": [
+      "Define access controls and an incident owner."
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "persona": "A resource-conscious controller",
+    "priorities": [
+      "Budget and measurable return"
+    ],
+    "typicalObjections": [
+      "What is the cost ceiling and stop condition?"
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "data",
+    "name": "Data / Analytics",
+    "persona": "A skeptical measurement lead",
+    "priorities": [
+      "Metric quality and baselines"
+    ],
+    "typicalObjections": [
+      "Specify the baseline and measurement window."
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "support",
+    "name": "Customer Support",
+    "persona": "A user advocate",
+    "priorities": [
+      "Recovery and support burden"
+    ],
+    "typicalObjections": [
+      "Who handles failures and user questions?"
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "operations",
+    "name": "Operations",
+    "persona": "A delivery coordinator",
+    "priorities": [
+      "Dependencies and ownership"
+    ],
+    "typicalObjections": [
+      "Name an owner for every launch dependency."
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing / Comms",
+    "persona": "A launch-focused communicator",
+    "priorities": [
+      "Clear messaging and timely delivery"
+    ],
+    "typicalObjections": [
+      "Can the promise be supported by evidence?"
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "people",
+    "name": "HR / People",
+    "persona": "A people-centered reviewer",
+    "priorities": [
+      "Training and equitable access"
+    ],
+    "typicalObjections": [
+      "How will staff learn the new workflow?"
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  },
+  {
+    "id": "executive",
+    "name": "Executive Sponsor",
+    "persona": "An outcome-focused sponsor",
+    "priorities": [
+      "Strategic fit and risk ownership"
+    ],
+    "typicalObjections": [
+      "What decision is needed and who accepts the risk?"
+    ],
+    "reviewFormat": "Top concern, severity, question, verdict, PRD section"
+  }
+]

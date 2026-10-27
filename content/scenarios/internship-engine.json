@@ -1,0 +1,93 @@
+{
+  "id": "internship-engine",
+  "title": "Internship application engine",
+  "careerPaths": [
+    "Other",
+    "Marketing",
+    "Finance"
+  ],
+  "summary": "Connect your real experience to a role without inventing achievements.",
+  "difficulty": "Starter",
+  "minutesToFirstValue": 12,
+  "components": [
+    {
+      "id": "1",
+      "title": "Match the role",
+      "purpose": "Compare the posting to evidence from your experience.",
+      "checklist": [
+        "Paste a public job description",
+        "List real achievements",
+        "Identify honest gaps"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "internship-engine-1"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Draft the application",
+      "purpose": "Tailor evidence without inventing it.",
+      "checklist": [
+        "Rewrite relevant bullets",
+        "Draft a cover letter outline",
+        "Keep claims traceable"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "internship-engine-2"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Review in your voice",
+      "purpose": "Own the final words and decisions.",
+      "checklist": [
+        "Read aloud",
+        "Remove generic phrases",
+        "Verify every claim"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "internship-engine-3"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    }
+  ],
+  "interviewStoryTemplate": "Situation \u2192 what I delegated \u2192 what I kept manual \u2192 prompting decisions \u2192 observed result \u2192 what I would change."
+}

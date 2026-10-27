@@ -1,0 +1,93 @@
+{
+  "id": "data-cleanup",
+  "title": "Data cleanup & analysis",
+  "careerPaths": [
+    "Finance",
+    "Product",
+    "Other"
+  ],
+  "summary": "Clean a spreadsheet and explain the patterns with sanity checks.",
+  "difficulty": "Starter",
+  "minutesToFirstValue": 10,
+  "components": [
+    {
+      "id": "1",
+      "title": "Understand the data",
+      "purpose": "Define columns, units and missing values.",
+      "checklist": [
+        "Use a non-sensitive sample",
+        "Create a data dictionary",
+        "Record original row count"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "data-cleanup-1"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Clean and analyze",
+      "purpose": "Propose reproducible transformations.",
+      "checklist": [
+        "Check duplicates",
+        "Validate formulas on known rows",
+        "Compare totals before and after"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "data-cleanup-2"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Explain findings",
+      "purpose": "Translate patterns into careful decisions.",
+      "checklist": [
+        "Check outliers manually",
+        "Separate correlation from cause",
+        "Document limitations"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "data-cleanup-3"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    }
+  ],
+  "interviewStoryTemplate": "Situation \u2192 what I delegated \u2192 what I kept manual \u2192 prompting decisions \u2192 observed result \u2192 what I would change."
+}

@@ -1,0 +1,92 @@
+{
+  "id": "creative-brief",
+  "title": "Creative brief to first draft",
+  "careerPaths": [
+    "Design",
+    "Marketing"
+  ],
+  "summary": "Explore a creative direction, then bring your own craft to the result.",
+  "difficulty": "Starter",
+  "minutesToFirstValue": 10,
+  "components": [
+    {
+      "id": "1",
+      "title": "Define the brief",
+      "purpose": "Describe audience, constraints and creative intent.",
+      "checklist": [
+        "Name audience",
+        "List brand constraints",
+        "Collect licensed references"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "creative-brief-1"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Explore directions",
+      "purpose": "Create options and critique against the brief.",
+      "checklist": [
+        "Write moodboard prompts",
+        "Compare three directions",
+        "Choose with a rationale"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "creative-brief-2"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Craft and critique",
+      "purpose": "Make the final work your own.",
+      "checklist": [
+        "Refine original composition",
+        "Check licensing",
+        "Get human critique"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "creative-brief-3"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    }
+  ],
+  "interviewStoryTemplate": "Situation \u2192 what I delegated \u2192 what I kept manual \u2192 prompting decisions \u2192 observed result \u2192 what I would change."
+}

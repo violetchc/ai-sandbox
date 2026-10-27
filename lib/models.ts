@@ -1,0 +1,17 @@
+import { z } from 'zod';
+export const paths = ['Consulting','Finance','Product','Design','Marketing','Policy/Nonprofit','Other'];
+export const componentSchema = z.object({id:z.string(),title:z.string(),purpose:z.string(),checklist:z.array(z.string()),toolIds:z.array(z.string()),promptIds:z.array(z.string()),delegate:z.array(z.string()),keepManual:z.array(z.string())});
+export const scenarioSchema = z.object({id:z.string(),title:z.string(),careerPaths:z.array(z.string()),summary:z.string(),difficulty:z.string(),minutesToFirstValue:z.number(),components:z.array(componentSchema).min(1),interviewStoryTemplate:z.string()});
+export type Scenario=z.infer<typeof scenarioSchema>;
+export const toolSchema=z.object({id:z.string(),name:z.string(),category:z.string(),whatItDoes:z.string(),whatItEnables:z.string(),careerPaths:z.array(z.string()),starterTask:z.string(),minutes:z.number(),obsolescenceRisk:z.enum(['Low','Med','High']),obsolescenceReason:z.string(),lastVerified:z.string(),sourceUrl:z.string(),manualVsDelegate:z.string()});
+export type Tool=z.infer<typeof toolSchema>;
+export const departmentSchema=z.object({id:z.string(),name:z.string(),persona:z.string(),priorities:z.array(z.string()),typicalObjections:z.array(z.string()),reviewFormat:z.string()});
+export type Department=z.infer<typeof departmentSchema>;
+export const policySchema=z.object({id:z.string(),category:z.string(),title:z.string(),clauses:z.array(z.object({id:z.string(),text:z.string()})),isSample:z.boolean()});
+export type Policy=z.infer<typeof policySchema>;
+export type Intake={problem:string;user:string;goals:string;nonGoals:string;metrics:string;constraints:string;assumptions:string;questions:string;stakeholders:string};
+export const sectionNames=['Overview','Problem','Users/Personas','Goals & Non-goals','User Stories','Requirements','Success Metrics','Dependencies','Risks','Rollout Plan','Open Questions','Appendix'];
+export const artifactSchema=z.object({title:z.string(),sections:z.record(z.string()),requirements:z.array(z.object({id:z.string(),title:z.string(),priority:z.enum(['P0','P1','P2']),rationale:z.string(),acceptance:z.string()})),metrics:z.array(z.string()),risks:z.array(z.string())});
+export type Artifact=z.infer<typeof artifactSchema>;
+export type Proof={id:string;scenarioId:string;componentId:string;task?:string;manualMinutes:number;aiMinutes:number;manualQuality:number;aiQuality:number;notes:string;createdAt:string};
+export type Check={status:'Not started'|'In progress'|'Done'|'N/A';owner:string;notes:string};

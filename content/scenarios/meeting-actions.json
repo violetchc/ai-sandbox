@@ -1,0 +1,93 @@
+{
+  "id": "meeting-actions",
+  "title": "Meeting-to-action pipeline",
+  "careerPaths": [
+    "Other",
+    "Product",
+    "Consulting"
+  ],
+  "summary": "Turn meeting notes into clear owners, next steps, and a follow-up in your voice.",
+  "difficulty": "Starter",
+  "minutesToFirstValue": 8,
+  "components": [
+    {
+      "id": "1",
+      "title": "Capture and clarify",
+      "purpose": "Separate decisions from discussion.",
+      "checklist": [
+        "Obtain consent for notes",
+        "Remove sensitive details",
+        "Label uncertain statements"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "meeting-actions-1"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Assign actions",
+      "purpose": "Make each next step accountable.",
+      "checklist": [
+        "Name owners",
+        "Confirm due dates",
+        "Flag unresolved questions"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "meeting-actions-2"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Write the follow-up",
+      "purpose": "Draft a concise message in your own voice.",
+      "checklist": [
+        "Verify commitments",
+        "Rewrite the personal opening",
+        "Review before sending"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "meeting-actions-3"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    }
+  ],
+  "interviewStoryTemplate": "Situation \u2192 what I delegated \u2192 what I kept manual \u2192 prompting decisions \u2192 observed result \u2192 what I would change."
+}

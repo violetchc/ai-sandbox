@@ -1,0 +1,92 @@
+{
+  "id": "consulting-case",
+  "title": "Consulting case prep",
+  "careerPaths": [
+    "Consulting",
+    "Finance"
+  ],
+  "summary": "Practice a case, explain your framework, and improve with feedback.",
+  "difficulty": "Starter",
+  "minutesToFirstValue": 10,
+  "components": [
+    {
+      "id": "1",
+      "title": "Frame the case",
+      "purpose": "Define the client objective and a hypothesis tree.",
+      "checklist": [
+        "Restate the objective",
+        "Build a mutually exclusive framework",
+        "Choose the first analysis"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "consulting-case-1"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Practice and calculate",
+      "purpose": "Work through assumptions and mental math.",
+      "checklist": [
+        "Estimate with units",
+        "Check magnitude",
+        "Explain your reasoning aloud"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "consulting-case-2"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Get interview feedback",
+      "purpose": "Critique the structure and communication.",
+      "checklist": [
+        "Request specific feedback",
+        "Retry the weakest section",
+        "Write a synthesis"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "consulting-case-3"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    }
+  ],
+  "interviewStoryTemplate": "Situation \u2192 what I delegated \u2192 what I kept manual \u2192 prompting decisions \u2192 observed result \u2192 what I would change."
+}

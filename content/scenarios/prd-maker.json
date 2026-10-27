@@ -1,0 +1,170 @@
+{
+  "id": "prd-maker",
+  "title": "Internal PRD Maker",
+  "careerPaths": [
+    "Product",
+    "Design"
+  ],
+  "summary": "Turn a rough product idea into a reviewed, resource-aware plan.",
+  "difficulty": "Guided",
+  "minutesToFirstValue": 15,
+  "components": [
+    {
+      "id": "capture",
+      "title": "Capture the idea",
+      "purpose": "Make the problem concrete before asking for a solution.",
+      "checklist": [
+        "Capture raw notes",
+        "Confirm the target user",
+        "Define measurable success"
+      ],
+      "toolIds": [
+        "wispr",
+        "granola"
+      ],
+      "promptIds": [
+        "prd-maker-capture"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "draft",
+      "title": "Draft the PRD",
+      "purpose": "Turn your intake into a reviewable product document.",
+      "checklist": [
+        "Generate the complete PRD",
+        "Review priorities and acceptance criteria",
+        "Edit and compare a version"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "prd-maker-draft"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "compliance",
+      "title": "Check the policies",
+      "purpose": "Find policy questions that need a human decision.",
+      "checklist": [
+        "Review applicable policies",
+        "Run the policy check",
+        "Resolve blockers or document an exception"
+      ],
+      "toolIds": [
+        "claude",
+        "notebooklm"
+      ],
+      "promptIds": [
+        "prd-maker-compliance"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Pressure-test the plan",
+      "purpose": "Practice responding to different stakeholder priorities.",
+      "checklist": [
+        "Select the review panel",
+        "Run review and debate",
+        "Write a rebuttal and resolve risks"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "prd-maker-review"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Make a realistic timeline",
+      "purpose": "Match scope to the hours the team actually has.",
+      "checklist": [
+        "Confirm availability and estimates",
+        "Generate the resource plan",
+        "Review deadline and trade-offs"
+      ],
+      "toolIds": [
+        "sheets",
+        "asana"
+      ],
+      "promptIds": [
+        "prd-maker-timeline"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "readiness",
+      "title": "Prepare to share",
+      "purpose": "Keep an honest record of what is ready and what needs approval.",
+      "checklist": [
+        "Assign checklist owners",
+        "Record proof and human sign-off",
+        "Export the stakeholder pack"
+      ],
+      "toolIds": [
+        "gamma",
+        "docs"
+      ],
+      "promptIds": [
+        "prd-maker-readiness"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    }
+  ],
+  "interviewStoryTemplate": "Situation \u2192 what I delegated \u2192 what I kept manual \u2192 prompting decisions \u2192 observed result \u2192 what I would change."
+}

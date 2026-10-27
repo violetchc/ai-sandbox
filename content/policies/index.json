@@ -1,0 +1,98 @@
+[
+  {
+    "id": "privacy",
+    "category": "Privacy / data protection",
+    "title": "Privacy / data protection \u2014 illustrative sample",
+    "clauses": [
+      {
+        "id": "privacy-1",
+        "text": "Document data purpose, consent, minimization and retention; use synthetic data until approved."
+      }
+    ],
+    "isSample": true
+  },
+  {
+    "id": "security",
+    "category": "Security",
+    "title": "Security \u2014 illustrative sample",
+    "clauses": [
+      {
+        "id": "security-1",
+        "text": "Define access controls, incident owner and least-privilege permissions."
+      }
+    ],
+    "isSample": true
+  },
+  {
+    "id": "accessibility",
+    "category": "Accessibility",
+    "title": "Accessibility \u2014 illustrative sample",
+    "clauses": [
+      {
+        "id": "accessibility-1",
+        "text": "Include keyboard navigation, readable contrast and assistive technology acceptance checks."
+      }
+    ],
+    "isSample": true
+  },
+  {
+    "id": "ip",
+    "category": "IP / licensing",
+    "title": "IP / licensing \u2014 illustrative sample",
+    "clauses": [
+      {
+        "id": "ip-1",
+        "text": "Record the source and permitted use of third-party assets."
+      }
+    ],
+    "isSample": true
+  },
+  {
+    "id": "procurement",
+    "category": "Procurement / vendors",
+    "title": "Procurement / vendors \u2014 illustrative sample",
+    "clauses": [
+      {
+        "id": "procurement-1",
+        "text": "Obtain vendor review before making any paid or data-sharing commitment."
+      }
+    ],
+    "isSample": true
+  },
+  {
+    "id": "ai",
+    "category": "AI-use policy",
+    "title": "AI-use policy \u2014 illustrative sample",
+    "clauses": [
+      {
+        "id": "ai-1",
+        "text": "Require human verification of AI outputs and disclose material AI assistance."
+      }
+    ],
+    "isSample": true
+  },
+  {
+    "id": "records",
+    "category": "Records retention",
+    "title": "Records retention \u2014 illustrative sample",
+    "clauses": [
+      {
+        "id": "records-1",
+        "text": "Specify a retention period, deletion process and accountable owner."
+      }
+    ],
+    "isSample": true
+  },
+  {
+    "id": "brand",
+    "category": "Brand / communications",
+    "title": "Brand / communications \u2014 illustrative sample",
+    "clauses": [
+      {
+        "id": "brand-1",
+        "text": "Obtain human review before external publication or official claims."
+      }
+    ],
+    "isSample": true
+  }
+]

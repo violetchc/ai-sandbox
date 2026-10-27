@@ -1,0 +1,413 @@
+[
+  {
+    "id": "prd-maker-capture",
+    "title": "Capture the idea",
+    "componentId": "capture",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. Act as a careful product partner. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For capture the idea, Make the problem concrete before asking for a solution. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "prd-maker-draft",
+    "title": "Draft the PRD",
+    "componentId": "draft",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. Act as a careful product partner. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For draft the prd, Turn your intake into a reviewable product document. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "prd-maker-compliance",
+    "title": "Check the policies",
+    "componentId": "compliance",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. Act as a careful product partner. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For check the policies, Find policy questions that need a human decision. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "prd-maker-review",
+    "title": "Pressure-test the plan",
+    "componentId": "review",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. Act as a careful product partner. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For pressure-test the plan, Practice responding to different stakeholder priorities. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "prd-maker-timeline",
+    "title": "Make a realistic timeline",
+    "componentId": "timeline",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. Act as a careful product partner. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For make a realistic timeline, Match scope to the hours the team actually has. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "prd-maker-readiness",
+    "title": "Prepare to share",
+    "componentId": "readiness",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. Act as a careful product partner. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For prepare to share, Keep an honest record of what is ready and what needs approval. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "consulting-case-1",
+    "title": "Frame the case",
+    "componentId": "1",
+    "scenarioId": "consulting-case",
+    "template": "Workflow: consulting-case. Act as a careful consulting case prep coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For frame the case, Define the client objective and a hypothesis tree. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "consulting-case-2",
+    "title": "Practice and calculate",
+    "componentId": "2",
+    "scenarioId": "consulting-case",
+    "template": "Workflow: consulting-case. Act as a careful consulting case prep coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For practice and calculate, Work through assumptions and mental math. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "consulting-case-3",
+    "title": "Get interview feedback",
+    "componentId": "3",
+    "scenarioId": "consulting-case",
+    "template": "Workflow: consulting-case. Act as a careful consulting case prep coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For get interview feedback, Critique the structure and communication. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "meeting-actions-1",
+    "title": "Capture and clarify",
+    "componentId": "1",
+    "scenarioId": "meeting-actions",
+    "template": "Workflow: meeting-actions. Act as a careful meeting-to-action pipeline coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For capture and clarify, Separate decisions from discussion. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "meeting-actions-2",
+    "title": "Assign actions",
+    "componentId": "2",
+    "scenarioId": "meeting-actions",
+    "template": "Workflow: meeting-actions. Act as a careful meeting-to-action pipeline coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For assign actions, Make each next step accountable. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "meeting-actions-3",
+    "title": "Write the follow-up",
+    "componentId": "3",
+    "scenarioId": "meeting-actions",
+    "template": "Workflow: meeting-actions. Act as a careful meeting-to-action pipeline coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For write the follow-up, Draft a concise message in your own voice. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "internship-engine-1",
+    "title": "Match the role",
+    "componentId": "1",
+    "scenarioId": "internship-engine",
+    "template": "Workflow: internship-engine. Act as a careful internship application engine coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For match the role, Compare the posting to evidence from your experience. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "internship-engine-2",
+    "title": "Draft the application",
+    "componentId": "2",
+    "scenarioId": "internship-engine",
+    "template": "Workflow: internship-engine. Act as a careful internship application engine coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For draft the application, Tailor evidence without inventing it. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "internship-engine-3",
+    "title": "Review in your voice",
+    "componentId": "3",
+    "scenarioId": "internship-engine",
+    "template": "Workflow: internship-engine. Act as a careful internship application engine coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For review in your voice, Own the final words and decisions. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "market-research-1",
+    "title": "Scope the question",
+    "componentId": "1",
+    "scenarioId": "market-research",
+    "template": "Workflow: market-research. Act as a careful market & competitor brief coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For scope the question, Define the market and decision. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "market-research-2",
+    "title": "Gather evidence",
+    "componentId": "2",
+    "scenarioId": "market-research",
+    "template": "Workflow: market-research. Act as a careful market & competitor brief coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For gather evidence, Collect sources and competing explanations. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "market-research-3",
+    "title": "Synthesize the brief",
+    "componentId": "3",
+    "scenarioId": "market-research",
+    "template": "Workflow: market-research. Act as a careful market & competitor brief coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For synthesize the brief, Explain the decision and uncertainty. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "data-cleanup-1",
+    "title": "Understand the data",
+    "componentId": "1",
+    "scenarioId": "data-cleanup",
+    "template": "Workflow: data-cleanup. Act as a careful data cleanup & analysis coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For understand the data, Define columns, units and missing values. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "data-cleanup-2",
+    "title": "Clean and analyze",
+    "componentId": "2",
+    "scenarioId": "data-cleanup",
+    "template": "Workflow: data-cleanup. Act as a careful data cleanup & analysis coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For clean and analyze, Propose reproducible transformations. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "data-cleanup-3",
+    "title": "Explain findings",
+    "componentId": "3",
+    "scenarioId": "data-cleanup",
+    "template": "Workflow: data-cleanup. Act as a careful data cleanup & analysis coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For explain findings, Translate patterns into careful decisions. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "creative-brief-1",
+    "title": "Define the brief",
+    "componentId": "1",
+    "scenarioId": "creative-brief",
+    "template": "Workflow: creative-brief. Act as a careful creative brief to first draft coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For define the brief, Describe audience, constraints and creative intent. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "creative-brief-2",
+    "title": "Explore directions",
+    "componentId": "2",
+    "scenarioId": "creative-brief",
+    "template": "Workflow: creative-brief. Act as a careful creative brief to first draft coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For explore directions, Create options and critique against the brief. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "creative-brief-3",
+    "title": "Craft and critique",
+    "componentId": "3",
+    "scenarioId": "creative-brief",
+    "template": "Workflow: creative-brief. Act as a careful creative brief to first draft coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For craft and critique, Make the final work your own. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "policy-memo-1",
+    "title": "Frame the issue",
+    "componentId": "1",
+    "scenarioId": "policy-memo",
+    "template": "Workflow: policy-memo. Act as a careful policy memo & grant draft coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For frame the issue, Define audience, decision and evidence needs. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "policy-memo-2",
+    "title": "Build the argument",
+    "componentId": "2",
+    "scenarioId": "policy-memo",
+    "template": "Workflow: policy-memo. Act as a careful policy memo & grant draft coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For build the argument, Structure options and trade-offs. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "policy-memo-3",
+    "title": "Red-team and revise",
+    "componentId": "3",
+    "scenarioId": "policy-memo",
+    "template": "Workflow: policy-memo. Act as a careful policy memo & grant draft coach. Task: {{task}}. Target user: {{user}}. Goals: {{goals}}. Constraints: {{constraints}}. For red-team and revise, Check feasibility and unintended effects. Return a structured first pass, an actionable checklist, assumptions, and questions. Do not invent facts, citations, approvals or commitments. Mark unknowns explicitly.",
+    "placeholders": [
+      "task",
+      "user",
+      "goals",
+      "constraints"
+    ],
+    "whyItWorks": "The role sets perspective; your task and user add context; constraints prevent overreach; an explicit format makes the result reviewable. Unknowns stay visible."
+  },
+  {
+    "id": "compare-0",
+    "title": "Vague first pass",
+    "componentId": "draft",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. Write a plan for {{task}}.",
+    "placeholders": [
+      "task"
+    ],
+    "whyItWorks": "A baseline shows what context is missing."
+  },
+  {
+    "id": "compare-1",
+    "title": "Constrained first pass",
+    "componentId": "draft",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. For {{task}}, list requirements with IDs, rationale, acceptance criteria and unknowns. Never invent stakeholder approval.",
+    "placeholders": [
+      "task"
+    ],
+    "whyItWorks": "Constraints and output format create a verifiable result."
+  },
+  {
+    "id": "compare-2",
+    "title": "Evidence audit",
+    "componentId": "draft",
+    "scenarioId": "prd-maker",
+    "template": "Workflow: prd-maker. Review {{task}}. Separate observed evidence, assumptions and unanswered questions.",
+    "placeholders": [
+      "task"
+    ],
+    "whyItWorks": "Separating evidence from inference reduces false confidence."
+  }
+]

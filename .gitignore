@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env*
+!.env.example
+test-results/
+playwright-report/
+*.tsbuildinfo
+.pnpm-store/
+tests/*-desktop.png
+tests/*-mobile.png
+.DS_Store
+*.log

@@ -1,0 +1,335 @@
+[
+  {
+    "id": "wispr",
+    "name": "Wispr Flow",
+    "category": "Voice capture",
+    "whatItDoes": "Dictate a messy idea into text.",
+    "whatItEnables": "Get an unpolished idea onto the page before organizing it.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Dictate a 90-second idea. Circle three missing decisions before asking AI to structure it.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://wisprflow.ai/",
+    "manualVsDelegate": "Keep corrections, names and intended meaning manual; delegate transcription."
+  },
+  {
+    "id": "granola",
+    "name": "Granola",
+    "category": "Meeting notes",
+    "whatItDoes": "Organize consented meeting notes.",
+    "whatItEnables": "Recover decisions and open questions from consented conversations.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Use a fictional meeting transcript to produce decisions, actions and questions; compare it with your own notes.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://www.granola.ai/",
+    "manualVsDelegate": "Keep recording consent and confirmation of commitments manual."
+  },
+  {
+    "id": "claude",
+    "name": "Claude \u00b7 Projects & Skills",
+    "category": "Drafting & review",
+    "whatItDoes": "Draft and review documents with reusable instructions.",
+    "whatItEnables": "Reuse a clear brief, reference material and review instructions across related drafts.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Draft one PRD section with goals, constraints and acceptance criteria; then challenge one assumption.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://www.anthropic.com/claude",
+    "manualVsDelegate": "Keep risk acceptance and factual verification manual; delegate structure and alternatives."
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT \u00b7 custom GPTs",
+    "category": "Drafting & review",
+    "whatItDoes": "Explore a task through structured conversation.",
+    "whatItEnables": "Iterate on a draft or rehearse a reviewer\u2019s questions with reusable instructions.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Compare a vague request with a role, context, constraints and output format; mark the useful differences.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://openai.com/chatgpt/",
+    "manualVsDelegate": "Keep original authorship and final decisions manual; delegate brainstorming and critique."
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "category": "Research",
+    "whatItDoes": "Find starting points for sourced research.",
+    "whatItEnables": "Find candidate sources for a research question that you can independently verify.",
+    "careerPaths": [
+      "Consulting",
+      "Finance"
+    ],
+    "starterTask": "Build a three-claim evidence ledger. Open every cited source and check that it supports the claim.",
+    "minutes": 10,
+    "obsolescenceRisk": "Med",
+    "obsolescenceReason": "Research interfaces change; tracing claims to original evidence remains useful.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://www.perplexity.ai/",
+    "manualVsDelegate": "Keep source inspection manual. A citation is a lead, not proof."
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM / Google Notebook",
+    "category": "Research",
+    "whatItDoes": "Explore material from a bounded source collection.",
+    "whatItEnables": "Ask focused questions about reference material you have selected.",
+    "careerPaths": [
+      "Consulting",
+      "Finance"
+    ],
+    "starterTask": "Add approved reference material and ask for competing interpretations; trace each point to the original.",
+    "minutes": 10,
+    "obsolescenceRisk": "Med",
+    "obsolescenceReason": "Research interfaces change; tracing claims to original evidence remains useful.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://notebook.google/",
+    "manualVsDelegate": "Keep document permissions and interpretation manual; delegate organization."
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "category": "Presentations",
+    "whatItDoes": "Structure a presentation from an outline.",
+    "whatItEnables": "Turn a reviewed outline into a presentation starting point.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Convert a five-bullet project outline into a short deck; replace any unsupported claims.",
+    "minutes": 15,
+    "obsolescenceRisk": "Med",
+    "obsolescenceReason": "Interfaces and automation features evolve quickly; keep the brief, critique and testing skills portable.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://gamma.app/",
+    "manualVsDelegate": "Keep narrative, brand review and factual accuracy manual."
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "Design",
+    "whatItDoes": "Develop and review interface design directions.",
+    "whatItEnables": "Explore and refine an interface or visual direction collaboratively.",
+    "careerPaths": [
+      "Design",
+      "Marketing"
+    ],
+    "starterTask": "Sketch a three-screen task flow and critique hierarchy, focus order and missing states.",
+    "minutes": 15,
+    "obsolescenceRisk": "Med",
+    "obsolescenceReason": "Interfaces and automation features evolve quickly; keep the brief, critique and testing skills portable.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://www.figma.com/",
+    "manualVsDelegate": "Keep visual craft and accessibility judgment manual."
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "Coding",
+    "whatItDoes": "Explore code with an AI-assisted editor.",
+    "whatItEnables": "Develop a small automation with coding assistance in an editor.",
+    "careerPaths": [
+      "Product",
+      "Other"
+    ],
+    "starterTask": "Ask for a CSV validation script using synthetic rows; inspect it and test a failing example.",
+    "minutes": 15,
+    "obsolescenceRisk": "Med",
+    "obsolescenceReason": "Interfaces and automation features evolve quickly; keep the brief, critique and testing skills portable.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://cursor.com/",
+    "manualVsDelegate": "Keep code review, permissions and release decisions manual."
+  },
+  {
+    "id": "codex",
+    "name": "Codex",
+    "category": "Coding",
+    "whatItDoes": "Delegate bounded coding tasks and review changes.",
+    "whatItEnables": "Build or modify software from a concrete task and verification criteria.",
+    "careerPaths": [
+      "Product",
+      "Other"
+    ],
+    "starterTask": "Specify a small local data-cleaning task; inspect the changes and run tests on a synthetic sample.",
+    "minutes": 15,
+    "obsolescenceRisk": "Med",
+    "obsolescenceReason": "Interfaces and automation features evolve quickly; keep the brief, critique and testing skills portable.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://openai.com/codex/",
+    "manualVsDelegate": "Keep requirements, code review and deployment approval manual."
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom \u00b7 AI meeting notes",
+    "category": "Meeting notes",
+    "whatItDoes": "Summarize consented meeting discussion.",
+    "whatItEnables": "Create a first-pass record of a consented meeting for review.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Compare a meeting summary against your notes; correct decisions and confirm action owners.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://www.zoom.com/en/products/ai-assistant/",
+    "manualVsDelegate": "Keep participant consent and commitment confirmation manual."
+  },
+  {
+    "id": "sheets",
+    "name": "Google Sheets",
+    "category": "Data analysis",
+    "whatItDoes": "Organize data and verify calculations.",
+    "whatItEnables": "Inspect tabular data and verify formulas in a familiar grid.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Clean a copied sample table, record changes and reconcile totals before interpreting a chart.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://workspace.google.com/products/sheets/",
+    "manualVsDelegate": "Keep definitions and sanity checks manual; delegate formula suggestions."
+  },
+  {
+    "id": "docs",
+    "name": "Google Docs",
+    "category": "Documents",
+    "whatItDoes": "Collaborate on a document and review revisions.",
+    "whatItEnables": "Review and revise a shared written deliverable.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Draft an outline, annotate missing evidence and revise one paragraph in your own voice.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://workspace.google.com/products/docs/",
+    "manualVsDelegate": "Keep authorship and stakeholder sign-off manual."
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "category": "Planning",
+    "whatItDoes": "Track accountable tasks and dependencies.",
+    "whatItEnables": "Make task ownership and dependencies visible to a project team.",
+    "careerPaths": [
+      "Product",
+      "Other"
+    ],
+    "starterTask": "Map a reviewed plan into five tasks with owners and acceptance criteria; confirm all commitments.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://asana.com/",
+    "manualVsDelegate": "Keep capacity and actual commitments manual."
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "Design",
+    "whatItDoes": "Explore visual drafts from a creative brief.",
+    "whatItEnables": "Explore layouts and create a first visual draft from a brief.",
+    "careerPaths": [
+      "Design",
+      "Marketing"
+    ],
+    "starterTask": "Make two layout directions for a fictional event and critique readability at phone size.",
+    "minutes": 10,
+    "obsolescenceRisk": "Med",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://www.canva.com/",
+    "manualVsDelegate": "Keep asset rights, composition and final craft manual."
+  },
+  {
+    "id": "copilot",
+    "name": "Microsoft Copilot",
+    "category": "Drafting & review",
+    "whatItDoes": "Draft and summarize workplace material.",
+    "whatItEnables": "Assist with common workplace drafting and analysis tasks.",
+    "careerPaths": [
+      "Consulting",
+      "Finance",
+      "Product",
+      "Design",
+      "Marketing",
+      "Policy/Nonprofit",
+      "Other"
+    ],
+    "starterTask": "Use approved sample material to draft a status update, then verify every statement against the source.",
+    "minutes": 10,
+    "obsolescenceRisk": "Low",
+    "obsolescenceReason": "Interfaces change; the underlying workflow and verification skill transfer.",
+    "lastVerified": "2026-10-27",
+    "sourceUrl": "https://www.microsoft.com/microsoft-copilot",
+    "manualVsDelegate": "Keep data permissions and factual verification manual."
+  }
+]

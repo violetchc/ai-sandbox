@@ -1,0 +1,91 @@
+{
+  "id": "policy-memo",
+  "title": "Policy memo & grant draft",
+  "careerPaths": [
+    "Policy/Nonprofit"
+  ],
+  "summary": "Shape evidence into a clear recommendation or a credible grant proposal.",
+  "difficulty": "Starter",
+  "minutesToFirstValue": 15,
+  "components": [
+    {
+      "id": "1",
+      "title": "Frame the issue",
+      "purpose": "Define audience, decision and evidence needs.",
+      "checklist": [
+        "State the policy question",
+        "Map affected people",
+        "List reliable sources"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "policy-memo-1"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Build the argument",
+      "purpose": "Structure options and trade-offs.",
+      "checklist": [
+        "Verify evidence",
+        "Compare alternatives",
+        "Draft an actionable recommendation"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "policy-memo-2"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Red-team and revise",
+      "purpose": "Check feasibility and unintended effects.",
+      "checklist": [
+        "Challenge assumptions",
+        "Check grant or memo requirements",
+        "Own final language"
+      ],
+      "toolIds": [
+        "claude",
+        "chatgpt"
+      ],
+      "promptIds": [
+        "policy-memo-3"
+      ],
+      "delegate": [
+        "Generate a first pass",
+        "Organize evidence and flag gaps"
+      ],
+      "keepManual": [
+        "Verify facts and sources",
+        "Set priorities and make real commitments",
+        "Keep personal language in your voice"
+      ]
+    }
+  ],
+  "interviewStoryTemplate": "Situation \u2192 what I delegated \u2192 what I kept manual \u2192 prompting decisions \u2192 observed result \u2192 what I would change."
+}
