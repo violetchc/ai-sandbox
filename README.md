@@ -2,6 +2,12 @@
 
 A local-first career workflow sandbox for students. Built with Next.js App Router, TypeScript, Tailwind CSS and Zod. The default mock provider requires no account, API key or internet connection after dependencies are installed and the local server is running.
 
+## Try the live team demo
+
+[Open AI Sandbox](https://ai-sandbox-violetchc.dearsloth25.chatgpt.site) — no installation, sign-in, or API key required.
+
+The hosted demo runs deterministic mock generation in each visitor’s browser. Progress, edited content and the Proof Log remain local to that browser; they are not shared between teammates. The complete guided workflows and exports are available. This repository retains the full Next.js app and optional server-side providers for local development.
+
 ## Start in two commands
 
 Use Node.js 22+ with npm installed, then run from this folder:

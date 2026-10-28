@@ -10,3 +10,4 @@ tests/*-desktop.png
 tests/*-mobile.png
 .DS_Store
 *.log
+.deploy/
